@@ -60,7 +60,7 @@
         <update_guid_history>0d5290f3496c6010bf42325a15e857a8:0,50429cb35e6c6010be24f7337253c48d:-94540767,0b221cb33d6c601099cc041c917e0721:0,c612d4b3ad6c601063f1d4001cda91cd:-94540767,b6d484bbfe2c601068e29291ace68ca2:0,86c480bb8e2c6010c8d23644826ede57:-94540767,24744c7b622c6010a1ddbacd6672448e:0,6654087b022c60101729670abdc47bb0:-94540767,c05dffe33c2c60100704b7f1c4672149:0,3a3dfbe3352c60106f167064d1f2840f:-94540767,d51df7e3012c6010a41303fa5d7b74db:0,7df4b36f9ce86010c99563709777ab4d:1661322831,f7dedfaf1aa86010c934d23128b59762:804955794</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_295413_yachtclub_yacht.x_295413_yachtclub.yacht_user">402a273b0764a010b26bf2508c1ed056</sys_audit_delete>
+        <sys_audit_delete display_value="">402a273b0764a010b26bf2508c1ed056</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-25 08:32:17</sys_created_on>
