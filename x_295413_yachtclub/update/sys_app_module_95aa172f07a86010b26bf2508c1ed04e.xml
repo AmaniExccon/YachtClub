@@ -12,8 +12,8 @@
         <map_page/>
         <mobile_title>Create New</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_295413_yachtclub_rents</name>
-        <order>2</order>
+        <name>x_295413_yachtclub_u_rent</name>
+        <order>4</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -24,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>95aa172f07a86010b26bf2508c1ed04e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Create new rent</sys_name>
         <sys_overrides/>
         <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
         <sys_update_name>sys_app_module_95aa172f07a86010b26bf2508c1ed04e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-24 17:03:28</sys_updated_on>
+        <sys_updated_on>2021-02-01 16:08:21</sys_updated_on>
         <timeline_page/>
         <title>Create new rent</title>
         <uncancelable>false</uncancelable>

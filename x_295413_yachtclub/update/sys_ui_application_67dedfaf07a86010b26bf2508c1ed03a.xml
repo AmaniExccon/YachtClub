@@ -4,7 +4,7 @@
         <hint/>
         <name>Yacht</name>
         <order/>
-        <roles>x_295413_yachtclub.yacht_user</roles>
+        <roles/>
         <sys_class_name>sys_ui_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-24 13:04:37</sys_created_on>

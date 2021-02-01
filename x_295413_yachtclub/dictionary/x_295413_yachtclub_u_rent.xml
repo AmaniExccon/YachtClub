@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Rents" max_length="40" name="x_295413_yachtclub_u_rent" sizeclass="0" type="collection">
-        <element label="Attendees " mandatory="true" max_length="40" name="u_attendees" type="integer"/>
+    <element label="Rents" max_length="40" name="x_295413_yachtclub_u_rent" type="collection">
+        <element label="Attendees" mandatory="true" max_length="40" name="u_attendees" type="integer"/>
         <element label="Yacht" mandatory="true" max_length="32" name="u_boat" reference="x_295413_yachtclub_u_yacht" reference_qual="u_state=1^EQ" reference_qual_condition="u_state=1^EQ" type="reference"/>
-        <element label="Member " mandatory="true" max_length="32" name="u_member" reference="sys_user" type="reference"/>
+        <element label="Member" mandatory="true" max_length="32" name="u_member" reference="sys_user" type="reference"/>
         <element label="Price" max_length="20" name="u_price" type="price"/>
-        <element label="Protocol " max_length="32" name="u_protocol" reference="x_295413_yachtclub_u_return_protocol" type="reference"/>
-        <element label="Rent Date End " mandatory="true" max_length="40" name="u_rent_date_end" type="glide_date"/>
-        <element label="Rent Date Start " mandatory="true" max_length="40" name="u_rent_date_start" type="glide_date"/>
+        <element label="Protocol" max_length="32" name="u_protocol" reference="x_295413_yachtclub_u_return_protocol" type="reference"/>
+        <element label="Rent Date End" mandatory="true" max_length="40" name="u_rent_date_end" type="glide_date"/>
+        <element label="Rent Date Start" mandatory="true" max_length="40" name="u_rent_date_start" type="glide_date"/>
         <index name="index">
             <element name="u_protocol"/>
         </index>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="yacht " max_length="40" name="x_295413_yachtclub_u_yacht" sizeclass="1" type="collection">
-        <element label="Technical Review " mandatory="true" max_length="40" name="technical_review" type="glide_date"/>
-        <element label="Cost " mandatory="true" max_length="20" name="u_cost" type="price"/>
-        <element label="Cost Per Mile " mandatory="true" max_length="20" name="u_cost_per_mile" type="price"/>
+    <element label="yacht " max_length="40" name="x_295413_yachtclub_u_yacht" type="collection">
+        <element label="Technical Review" mandatory="true" max_length="40" name="technical_review" type="glide_date"/>
+        <element label="Cost" mandatory="true" max_length="20" name="u_cost" type="price"/>
+        <element label="Cost Per Mile" mandatory="true" max_length="20" name="u_cost_per_mile" type="price"/>
         <element label="Margin Per Day" mandatory="true" max_length="20" name="u_margin_per_day" type="decimal"/>
         <element label="Margin Per Mile" mandatory="true" max_length="20" name="u_margin_per_mile" type="decimal"/>
-        <element label="Max Attendees " mandatory="true" max_length="40" name="u_max_attendees" type="integer"/>
-        <element display="true" label="Model " mandatory="true" max_length="20" name="u_model" type="string"/>
+        <element label="Max Attendees" mandatory="true" max_length="40" name="u_max_attendees" type="integer"/>
+        <element display="true" label="Model" mandatory="true" max_length="20" name="u_model" type="string"/>
         <element label="Price" mandatory="true" max_length="20" name="u_price" type="price"/>
         <element label="Price Per Mile" mandatory="true" max_length="20" name="u_price_per_mile" type="price"/>
         <element choice="1" label="State" mandatory="true" max_length="40" name="u_state" type="choice">

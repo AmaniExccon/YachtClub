@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Return Protocol" max_length="40" name="x_295413_yachtclub_u_return_protocol" sizeclass="0" type="collection">
-        <element label="Has New Damages " max_length="40" name="u_has_new_damages" type="boolean"/>
-        <element label="Is SeaWorthy " max_length="40" name="u_is_seaworthy" type="boolean"/>
+    <element label="Return Protocol" max_length="40" name="x_295413_yachtclub_u_return_protocol" type="collection">
+        <element label="Has New Damages" max_length="40" name="u_has_new_damages" type="boolean"/>
+        <element label="Is SeaWorthy" max_length="40" name="u_is_seaworthy" type="boolean"/>
         <element label="Miles on End" mandatory="true" max_length="20" name="u_miles_on_end" type="decimal"/>
         <element label="Miles on Start" mandatory="true" max_length="20" name="u_miles_on_start" type="decimal"/>
         <element label="Notes" mandatory="true" max_length="100" name="u_notes" type="string"/>
         <element label="Rent" max_length="32" name="u_rent" reference="x_295413_yachtclub_u_rent" type="reference"/>
-        <element label="Return Protocal " max_length="32" name="u_return_protocal" reference="x_295413_yachtclub_u_return_protocol" type="reference"/>
+        <element label="Return Protocal" max_length="32" name="u_return_protocal" reference="x_295413_yachtclub_u_return_protocol" type="reference"/>
         <index name="index">
             <element name="u_rent"/>
         </index>
