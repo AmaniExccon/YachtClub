@@ -42,7 +42,7 @@
         <update_guid_history>036f947f5b6c6010dc271b8f9d6a6563:1004861537</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_295413_yachtclub_rents.x_295413_yachtclub.yacht_club_member">4940ec7f076c6010b26bf2508c1ed090</sys_audit_delete>
+        <sys_audit_delete display_value="">4940ec7f076c6010b26bf2508c1ed090</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-24 17:50:20</sys_created_on>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Technical  Review">efb0393107422010adadff1d7c1ed0b5</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Technical Review s</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_295413_yachtclub_x_295413_u_yachtclub_technical_review</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_295413_yachtclub.technical_review_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 08:08:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2bb0393107422010adadff1d7c1ed0b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Technical Review s</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_update_name>sys_app_module_2bb0393107422010adadff1d7c1ed0b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 08:08:18</sys_updated_on>
+        <timeline_page/>
+        <title>Technical Review s</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</application>
+        <file_path/>
+        <instance_id>5e528beadb224450b847ac44d496195d</instance_id>
+        <instance_name>dev97950</instance_name>
+        <name>sys_app_module_2bb0393107422010adadff1d7c1ed0b9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Technical  Review">efb0393107422010adadff1d7c1ed0b5</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Technical Review s</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_295413_yachtclub_x_295413_u_yachtclub_technical_review</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_295413_yachtclub.technical_review_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-01 08:08:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2bb0393107422010adadff1d7c1ed0b9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Technical Review s</sys_name><sys_overrides/><sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package><sys_policy/><sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope><sys_update_name>sys_app_module_2bb0393107422010adadff1d7c1ed0b9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-01 08:08:18</sys_updated_on><timeline_page/><title>Technical Review s</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-819218746</payload_hash>
+        <record_name>Technical Review s</record_name>
+        <reverted_from/>
+        <source>e7b2231407b12010adadff1d7c1ed05b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 08:08:18</sys_created_on>
+        <sys_id>fbb0393107422010adadff1d7c1ed0bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1775ca2a3780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 08:08:18</sys_updated_on>
+        <type>Module</type>
+        <update_guid>27b03931524220106ee86d00297db4bb</update_guid>
+        <update_guid_history>27b03931524220106ee86d00297db4bb:-819218746</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Technical Review s">a8117d3107422010adadff1d7c1ed0ae</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 08:09:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>5be21443055342fd8ea8c91568ed0e59</sys_id>
+        <sys_metadata>2bb0393107422010adadff1d7c1ed0b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Technical Review s</sys_name>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_scope_delete display_value="">30da5e27c993460f93ff8ac00b66dfa1</sys_scope_delete>
+        <sys_update_name>sys_app_module_2bb0393107422010adadff1d7c1ed0b9</sys_update_name>
+        <sys_update_version display_value="sys_app_module_2bb0393107422010adadff1d7c1ed0b9">fbb0393107422010adadff1d7c1ed0bb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 08:09:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
