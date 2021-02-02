@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Return Protocol" max_length="40" name="x_295413_yachtclub_u_return_protocol" type="collection">
+    <element label="Return Protocol" max_length="40" name="x_295413_yachtclub_u_return_protocol" sizeclass="0" type="collection">
         <element label="Has New Damages" max_length="40" name="u_has_new_damages" type="boolean"/>
         <element label="Is SeaWorthy" max_length="40" name="u_is_seaworthy" type="boolean"/>
         <element label="Miles on End" mandatory="true" max_length="20" name="u_miles_on_end" type="decimal"/>

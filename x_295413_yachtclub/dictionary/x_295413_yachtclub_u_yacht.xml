@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="yacht " max_length="40" name="x_295413_yachtclub_u_yacht" type="collection">
+    <element label="yacht " max_length="40" name="x_295413_yachtclub_u_yacht" sizeclass="3" type="collection">
         <element label="Technical Review" mandatory="true" max_length="40" name="technical_review" type="glide_date"/>
         <element label="Cost" mandatory="true" max_length="20" name="u_cost" type="price"/>
         <element label="Cost Per Mile" mandatory="true" max_length="20" name="u_cost_per_mile" type="price"/>
