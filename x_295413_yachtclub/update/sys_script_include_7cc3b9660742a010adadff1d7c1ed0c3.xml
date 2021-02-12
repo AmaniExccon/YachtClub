@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_295413_yachtclub.filterRent Date</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>filterRent Date</name>
+        <script><![CDATA[var filterRentDate = Class.create();
+filterRent.prototype = {
+    initialize: function(grRecord) {
+
+
+        // If this is a GlideRecord, then get the sys_id from it
+        if (grRecord instanceof GlideRecord) {
+            this.rentID = grRecord.getUniqueValue();
+            this.rentGr = grRecord;
+        } else {
+            // Otherwise use the sys_id to get the GlideRecord
+            this.rentGr = new GlideRecord("x_295413_yachtclub_u_rent");
+            this.rentGr.get(grRecord);
+            this.rentID = grRecord;
+        }
+    },
+
+
+    isAvaiable: function(yId) {
+        var rentId = yId;
+        var user_Start_Date = this.rentGr.getValue('u_rent_date_start');
+        var user_End_Date = this.rentGr.getVallue('u_rent_date_end');
+		gs.info('The user entered dates are'+user_Start_Date);
+        var count = 0;
+        var lstRent = new GlideAggregate("x_295413_yachtclub_u_rent");
+
+        if (!yId)
+            return false;
+        if (yId instanceof GlideRecord)
+            rentId = yId.getUniqueValue();
+        var myQuery = 'u_boat=' + rentId + '^';
+        myQuery += 'u_rent_date_start>' + user_End_Date + '^';
+        myQuery += 'NQ';
+        myQuery += 'u_boat=' + rentId + '^';
+        myQuery += 'u_rent_date_end<' + user_Start_Date;
+
+
+        lstRent.addAggregate('COUNT');
+        lstRent.addEncodedQuery(myQuery);
+        lstRent.query();
+
+        if (lstRent.next()) {
+            count = lstRent.getAggregate('COUNT');
+        }
+
+        return (count >= 1);
+
+    },
+
+    availableYacht: function() {
+        var yachtList = [];
+        var grYacht = new GlideRecord("x_295413_yachtclub_u_yacht");
+        // the yatches that are available or booked  
+        grYacht.addEncodedQuery('u_state=1^ORu_state=2');
+        grYacht.query();
+        while (grYacht.next()) {
+            var id = grYacht.getUniqueValue();
+
+            if (this.isAvailable(id)) {
+                yachtList.push(id);
+				
+            }
+        }
+
+        return yachtList.join(',');
+
+    },
+
+    yachtRef: function() {
+		
+        return 'sys_idIN' + this.availableYacht();
+
+    },
+
+
+    type: 'filterRentDate'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-03 16:52:30</sys_created_on>
+        <sys_id>7cc3b9660742a010adadff1d7c1ed0c3</sys_id>
+        <sys_mod_count>45</sys_mod_count>
+        <sys_name>filterRent Date</sys_name>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_update_name>sys_script_include_7cc3b9660742a010adadff1d7c1ed0c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 17:39:22</sys_updated_on>
+    </sys_script_include>
+</record_update>

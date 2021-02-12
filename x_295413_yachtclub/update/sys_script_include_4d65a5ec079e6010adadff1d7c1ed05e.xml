@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_295413_yachtclub.ShowYacht</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ShowYacht</name>
+        <script><![CDATA[var ShowYacht = Class.create();
+ShowYacht.prototype = {
+    initialize: function(grRecord) {
+        if (grRecord instanceof GlideRecord) {
+            this.rentID = grRecord.getUniqueValue();
+            this.rentGr = grRecord;
+        } else {
+            // Otherwise use the sys_id to get the GlideRecord
+            this.rentGr = new GlideRecord("x_295413_yachtclub_u_rent");
+            this.rentGr.get(grRecord);
+            this.rentID = grRecord;
+        }
+        gs.info('the current object from rent form values is rentId= ' + this.rentID);
+        gs.info('This is call from initial function');
+    },
+
+    myRent: function(yId) {
+
+        var yachtId = yId.getUniqueValue();
+        gs.info('The booked yacht value is' + yachtId);
+        var count = 0;
+
+        var user_Start_Date = this.rentGr.getValue('u_rent_date_start');
+        var user_End_Date = this.rentGr.getValue('u_rent_date_end');
+        gs.info('the current values for dates are' + user_Start_Date + user_End_Date);
+
+        var lstRent = new GlideAggregate("x_295413_yachtclub_u_rent");
+        // gs.info('The boat value is' + u_boat);
+        var myQuery = 'u_boat=' + yachtId + '^';
+        myQuery += 'u_rent_date_start>' + user_End_Date + '^';
+        myQuery += 'NQ';
+        myQuery += 'u_boat=' + yachtId + '^';
+        myQuery += 'u_rent_date_end<' + user_Start_Date;
+
+
+        lstRent.addAggregate('COUNT');
+        lstRent.addEncodedQuery(myQuery);
+        lstRent.query();
+
+
+        if (lstRent.next()) {
+            count = parseInt(lstRent.getAggregate('COUNT'), 10);
+        }
+
+        return (count >= 1); // if the query is pass and aggregate is incremented then pass the yacht to YachtList 
+
+
+    },
+
+    myYacht: function() {
+        var yachtList = [];
+        gs.info('This is call from my function');
+
+        var ids = [];
+
+        var grYacht = new GlideRecord("x_295413_yachtclub_u_yacht");
+        // the yatches that are available or booked  
+        grYacht.addEncodedQuery('u_state=1');
+        grYacht.query();
+        while (grYacht.next()) {
+            //the grYacht is accesed, the sys_id into string, ids are pushed into array yachtList
+
+
+            gs.info('Query adding available yachts into yachtList');
+
+
+            yachtList.push(grYacht.sys_id.toString());
+
+            //  yachtList.push(grYacht.sys_id.toString());
+        }
+        grYacht = new GlideRecord("x_295413_yachtclub_u_yacht");
+        grYacht.addEncodedQuery('u_state=2');
+        grYacht.query();
+
+        while (grYacht.next()) {
+            //the grYacht is accesed, the sys_id into string, ids are pushed into array yachtList
+
+            if (this.myRent(grYacht)) {
+                yachtList.push(grYacht.sys_id.toString());
+            }
+            //ids.push(grYacht.sys_id.toString()); saving id is other arry and pass to function?
+
+
+        }
+        return yachtList;
+
+
+    },
+    myFunction: function() {
+
+
+        if ((!this.rentGr.u_rent_date_start.nil()) && (!this.rentGr.u_rent_date_end.nil())) {
+                return 'sys_idIN' + this.myYacht();
+        }
+		
+		/*if(!this.rentGr.u_boat.nil()){
+			return 'sys_idIN' + this.myYacht();
+		}*/
+
+   
+
+    },
+
+
+    type: 'ShowYacht'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-09 20:35:17</sys_created_on>
+        <sys_id>4d65a5ec079e6010adadff1d7c1ed05e</sys_id>
+        <sys_mod_count>82</sys_mod_count>
+        <sys_name>ShowYacht</sys_name>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_update_name>sys_script_include_4d65a5ec079e6010adadff1d7c1ed05e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 17:52:03</sys_updated_on>
+    </sys_script_include>
+</record_update>
