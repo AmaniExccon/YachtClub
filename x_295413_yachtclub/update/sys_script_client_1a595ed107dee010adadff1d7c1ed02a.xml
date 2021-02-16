@@ -17,28 +17,29 @@
 
     //Type appropriate comment here, and begin script below
     var startDt = g_form.getValue('u_rent_date_start'); //first Date/Time field
-
     var ajax = new GlideAjax('rentDateUtility');
     ajax.addParam('sysparm_name', 'validateStartDate');
     ajax.addParam('sysparm_fdt', startDt);
     ajax.getXML(ValidateDate);
+   
 }
+ function ValidateDate(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+        if (answer == 1) {
+            g_form.showFieldMsg('u_rent_date_start', "The start date can't be in past", 'error');
+        } else if(answer==0) {
+            alert("StartDate is valid ");
+        }
 
-function ValidateDate(response) {
-    var answer = response.responseXML.documentElement.getAttribute("answer");
-    if (answer == 1)
-		g_form.showFieldMsg('startDt', "The start date can't be in past", 'error');
 
-  
-  
-}]]></script>
+    }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-12 08:41:49</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1a595ed107dee010adadff1d7c1ed02a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>startDateValidation </sys_name>
         <sys_overrides/>
         <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
@@ -46,7 +47,7 @@ function ValidateDate(response) {
         <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
         <sys_update_name>sys_script_client_1a595ed107dee010adadff1d7c1ed02a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-12 09:47:31</sys_updated_on>
+        <sys_updated_on>2021-02-15 10:57:41</sys_updated_on>
         <table>x_295413_yachtclub_u_rent</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

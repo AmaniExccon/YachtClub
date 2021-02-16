@@ -2,18 +2,18 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_295413_yachtclub_u_return_protocol" version="2" view="sys_ref_list">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_id</element>
-            <list_id display_value="x_295413_yachtclub_u_return_protocol" element="NULL" name="x_295413_yachtclub_u_return_protocol" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">fe28323507062010adadff1d7c1ed07f</list_id>
+            <element>number</element>
+            <list_id display_value="x_295413_yachtclub_u_return_protocol" element="NULL" name="x_295413_yachtclub_u_return_protocol" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">f0a6d06207d62010adadff1d7c1ed0b7</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-01 13:20:21</sys_created_on>
-            <sys_id>ba28323507062010adadff1d7c1ed080</sys_id>
+            <sys_created_on>2021-02-15 19:45:45</sys_created_on>
+            <sys_id>b8a6d06207d62010adadff1d7c1ed0b8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-01 13:20:21</sys_updated_on>
+            <sys_updated_on>2021-02-15 19:45:45</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -27,10 +27,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-01 13:20:21</sys_created_on>
+            <sys_created_on>2021-02-15 19:45:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>fe28323507062010adadff1d7c1ed07f</sys_id>
+            <sys_id>f0a6d06207d62010adadff1d7c1ed0b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_295413_yachtclub_u_return_protocol</sys_name>
             <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
@@ -38,7 +38,7 @@
             <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
             <sys_update_name>sys_ui_list_x_295413_yachtclub_u_return_protocol_sys_ref_list</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-01 13:20:21</sys_updated_on>
+            <sys_updated_on>2021-02-15 19:45:45</sys_updated_on>
             <sys_user/>
             <view display_value="Reference List" name="sys_ref_list">70507340c923101091f9f0646483272e</view>
             <view_name/>
