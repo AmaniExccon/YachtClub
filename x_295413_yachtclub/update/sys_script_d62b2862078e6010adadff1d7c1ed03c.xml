@@ -38,7 +38,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d62b2862078e6010adadff1d7c1ed03c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Set Requested on Insert </sys_name>
         <sys_overrides/>
         <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
@@ -46,8 +46,8 @@
         <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
         <sys_update_name>sys_script_d62b2862078e6010adadff1d7c1ed03c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-03 11:10:57</sys_updated_on>
-        <template>u_approval=1^EQ</template>
+        <sys_updated_on>2021-02-17 15:29:02</sys_updated_on>
+        <template>u_approval=1^u_status=1^EQ</template>
         <when>before</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=d62b2862078e6010adadff1d7c1ed03c"/>

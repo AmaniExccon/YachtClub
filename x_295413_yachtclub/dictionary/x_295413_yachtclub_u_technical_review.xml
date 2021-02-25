@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Technical Review" max_length="40" name="x_295413_yachtclub_u_technical_review" sizeclass="0" type="collection">
+    <element label="Technical Review" max_length="40" name="x_295413_yachtclub_u_technical_review" sizeclass="2" type="collection">
         <element label="Max Attendees" mandatory="true" max_length="40" name="max_attendees" type="integer"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="1" label="Approve" mandatory="true" max_length="40" name="u_approve" type="choice">
+        <element choice="1" label="Approve " max_length="40" name="u_approve" type="choice">
             <choice>
-                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+                <element hint="When technical Review date trigger the state changes to  pending " inactive_on_update="false" label="pending" sequence="1" value="1"/>
+                <element dependent_value="When Yacht is sent for  maintenance" inactive_on_update="false" label="Approved" sequence="2" value="2"/>
             </choice>
         </element>
         <element label="Yacht" mandatory="true" max_length="32" name="u_boat" reference="x_295413_yachtclub_u_yacht" type="reference"/>
         <element label="Cost" mandatory="true" max_length="20" name="u_cost" type="price"/>
         <element label="Price" mandatory="true" max_length="20" name="u_price" type="price"/>
-        <element choice="1" label="State" mandatory="true" max_length="40" name="u_state" type="choice">
+        <element choice="1" label="State" max_length="40" name="u_state" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Under Maintenance" sequence="1" value="1"/>
-                <element inactive_on_update="false" label="Delivered" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="UpComing" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Under Maintenance" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Delivered" sequence="3" value="3"/>
             </choice>
         </element>
         <element label="Technical Review" mandatory="true" max_length="40" name="u_technical_review" type="glide_date"/>

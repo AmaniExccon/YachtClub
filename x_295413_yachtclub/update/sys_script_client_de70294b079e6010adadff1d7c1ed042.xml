@@ -3,54 +3,56 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description/>
-        <field>u_rent_date_start</field>
+        <description>EndDate should be after start date </description>
+        <field>u_rent_date_end</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>startDateValidation </name>
+        <name>EndDateValidation</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
     if (isLoading || newValue === '') {
         return;
     }
-
-
-    var startDt = g_form.getValue('u_rent_date_start'); //first Date/Time field
+    var startDt = g_form.getValue('u_rent_date_start'); 
+    var endDt = g_form.getValue('u_rent_date_end'); 
     var ajax = new GlideAjax('rentDateUtility');
-    ajax.addParam('sysparm_name', 'validateStartDate');
-    ajax.addParam('sysparm_fdt', startDt);
+    ajax.addParam('sysparm_name', 'validateEndDate');
+	ajax.addParam('sysparm_sdt', startDt);
+    ajax.addParam('sysparm_edt', endDt);
     ajax.getXML(ValidateDate);
-   
+
 }
- function ValidateDate(response) {
-        var answer = response.responseXML.documentElement.getAttribute("answer");
-        if (answer == 1) {
-            g_form.showFieldMsg('u_rent_date_start', "The start date can't be in past", 'error');
-        } else if(answer==0) {
-            alert("StartDate is valid ");
-        }
+
+function ValidateDate(response) {
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+    if (answer == 1) {
+        g_form.showFieldMsg('u_rent_date_end', "The end date can't be before start date", 'error');
+    } else if (answer == 0) {
+        alert("end Date is valid ");
+    }
 
 
-    }]]></script>
+
+}]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-12 08:41:49</sys_created_on>
+        <sys_created_on>2021-02-17 14:33:53</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>1a595ed107dee010adadff1d7c1ed02a</sys_id>
-        <sys_mod_count>13</sys_mod_count>
-        <sys_name>startDateValidation </sys_name>
+        <sys_id>de70294b079e6010adadff1d7c1ed042</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>EndDateValidation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
         <sys_policy/>
         <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
-        <sys_update_name>sys_script_client_1a595ed107dee010adadff1d7c1ed02a</sys_update_name>
+        <sys_update_name>sys_script_client_de70294b079e6010adadff1d7c1ed042</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 14:29:28</sys_updated_on>
+        <sys_updated_on>2021-02-17 14:38:09</sys_updated_on>
         <table>x_295413_yachtclub_u_rent</table>
         <type>onChange</type>
-        <ui_type>10</ui_type>
+        <ui_type>0</ui_type>
         <view/>
     </sys_script_client>
 </record_update>

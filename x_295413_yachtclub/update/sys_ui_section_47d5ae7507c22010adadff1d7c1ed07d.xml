@@ -1,142 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="47d5ae7507c22010adadff1d7c1ed07d" sys_domain="global" table="x_295413_yachtclub_u_rent" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-15 13:45:48</sys_created_on>
-            <sys_id>8844031e07d22010adadff1d7c1ed042</sys_id>
+            <sys_created_on>2021-02-17 14:48:53</sys_created_on>
+            <sys_id>2bd5694f079e6010adadff1d7c1ed008</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_295413_yachtclub_u_rent" sys_domain="global" view="Default view">47d5ae7507c22010adadff1d7c1ed07d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-15 13:45:48</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-15 13:45:48</sys_created_on>
-            <sys_id>0044031e07d22010adadff1d7c1ed043</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_295413_yachtclub_u_rent" sys_domain="global" view="Default view">47d5ae7507c22010adadff1d7c1ed07d</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-15 13:45:48</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_member</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-15 13:45:48</sys_created_on>
-            <sys_id>8044031e07d22010adadff1d7c1ed043</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_295413_yachtclub_u_rent" sys_domain="global" view="Default view">47d5ae7507c22010adadff1d7c1ed07d</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-15 13:45:48</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_boat</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-15 13:45:48</sys_created_on>
-            <sys_id>8c44031e07d22010adadff1d7c1ed08d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_295413_yachtclub_u_rent" sys_domain="global" view="Default view">47d5ae7507c22010adadff1d7c1ed07d</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-15 13:45:48</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-15 13:45:48</sys_created_on>
-            <sys_id>0044031e07d22010adadff1d7c1ed08e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_295413_yachtclub_u_rent" sys_domain="global" view="Default view">47d5ae7507c22010adadff1d7c1ed07d</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-15 13:45:48</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_attendees</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-15 13:45:48</sys_created_on>
-            <sys_id>8044031e07d22010adadff1d7c1ed08e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_295413_yachtclub_u_rent" sys_domain="global" view="Default view">47d5ae7507c22010adadff1d7c1ed07d</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-15 13:45:48</sys_updated_on>
+            <sys_updated_on>2021-02-17 14:48:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_rent_date_start</element>
-            <position>6</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-15 13:45:48</sys_created_on>
-            <sys_id>0444031e07d22010adadff1d7c1ed08e</sys_id>
+            <sys_created_on>2021-02-17 14:48:53</sys_created_on>
+            <sys_id>abd5694f079e6010adadff1d7c1ed008</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_295413_yachtclub_u_rent" sys_domain="global" view="Default view">47d5ae7507c22010adadff1d7c1ed07d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-15 13:45:48</sys_updated_on>
+            <sys_updated_on>2021-02-17 14:48:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boat</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-17 14:48:53</sys_created_on>
+            <sys_id>2fd5694f079e6010adadff1d7c1ed008</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_295413_yachtclub_u_rent" sys_domain="global" view="Default view">47d5ae7507c22010adadff1d7c1ed07d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-17 14:48:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-17 14:48:53</sys_created_on>
+            <sys_id>afd5694f079e6010adadff1d7c1ed008</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_295413_yachtclub_u_rent" sys_domain="global" view="Default view">47d5ae7507c22010adadff1d7c1ed07d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-17 14:48:53</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_member</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-17 14:48:53</sys_created_on>
+            <sys_id>23d5694f079e6010adadff1d7c1ed009</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_295413_yachtclub_u_rent" sys_domain="global" view="Default view">47d5ae7507c22010adadff1d7c1ed07d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-17 14:48:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_rent_date_end</element>
-            <position>7</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-15 13:45:48</sys_created_on>
-            <sys_id>8444031e07d22010adadff1d7c1ed08e</sys_id>
+            <sys_created_on>2021-02-17 14:48:53</sys_created_on>
+            <sys_id>a3d5694f079e6010adadff1d7c1ed009</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_295413_yachtclub_u_rent" sys_domain="global" view="Default view">47d5ae7507c22010adadff1d7c1ed07d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-15 13:45:48</sys_updated_on>
+            <sys_updated_on>2021-02-17 14:48:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>8</position>
+            <element>u_attendees</element>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-15 13:45:48</sys_created_on>
-            <sys_id>0844031e07d22010adadff1d7c1ed08e</sys_id>
+            <sys_created_on>2021-02-17 14:48:53</sys_created_on>
+            <sys_id>27d5694f079e6010adadff1d7c1ed009</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_295413_yachtclub_u_rent" sys_domain="global" view="Default view">47d5ae7507c22010adadff1d7c1ed07d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-15 13:45:48</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_status</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-15 13:45:48</sys_created_on>
-            <sys_id>8844031e07d22010adadff1d7c1ed08e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_295413_yachtclub_u_rent" sys_domain="global" view="Default view">47d5ae7507c22010adadff1d7c1ed07d</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-15 13:45:48</sys_updated_on>
+            <sys_updated_on>2021-02-17 14:48:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

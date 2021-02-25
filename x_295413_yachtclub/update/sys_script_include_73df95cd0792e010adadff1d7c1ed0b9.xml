@@ -1,39 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
-        <active>false</active>
+        <active>true</active>
         <api_name>x_295413_yachtclub.showStartDate </api_name>
         <caller_access/>
         <client_callable>true</client_callable>
-        <description/>
+        <description>JASON for client script to show dates available</description>
         <name>showStartDate </name>
         <script><![CDATA[var showStartDate = Class.create();
 showStartDate.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
     getDateInfo: function() {
-        var outputs = [];
+
         var yacht = this.getParameter('sysparm_boat');
+        var result1 = [];
+        gs.info('---> yacht Parm: ' + yacht);
+
         gs.info('the client script Available date for yacht triggered the  ShowStartdate script include');
 
-       // var yachtId = yacht.getUniqueValue();
-       gs.info('TESTING: yacht is = ' + yacht);
-        var gr = new GlideRecord('x_295413_yachtclub_u_rent');
-        gr.addQuery('u_yacht', yacht);
-        gr.query();
 
-        while (gr.next()) {
-            var ids = {
-                'u_yacht': gr.getValue('u_yacht'),
-                'u_rent_date_start': gr.getValue('u_rent_date_start'),
+        var grRent = new GlideRecord('x_295413_yachtclub_u_rent');
+        gs.info('The Glide Record is initiated ');
 
-            };
-            outputs.push(ids);
+        grRent.addQuery('u_boat', yacht);
+
+        grRent.query();
+
+        while (grRent.next()) {
+            gs.info('The while is triggered');
+            var obj1 = {};
+            obj1.yacht = grRent.u_boat.getDisplayValue();
+            obj1.startDate= grRent.u_rent_date_start.getDisplayValue();
+            obj1.endDate= grRent.u_rent_date_end.getDisplayValue();
+            gs.info('The while is completed');
+            result1.push(obj1);
         }
-       var chr = { "output": outputs };
+
+        gs.info(result1);
+
+        return JSON.stringify(result1);
 
 
-        return JSON.stringify(chr);
-		
     },
 
     type: 'showStartDate'
@@ -42,13 +49,13 @@ showStartDate.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-11 10:25:48</sys_created_on>
         <sys_id>73df95cd0792e010adadff1d7c1ed0b9</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>55</sys_mod_count>
         <sys_name>showStartDate </sys_name>
         <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
         <sys_update_name>sys_script_include_73df95cd0792e010adadff1d7c1ed0b9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-11 17:23:59</sys_updated_on>
+        <sys_updated_on>2021-02-18 13:57:19</sys_updated_on>
     </sys_script_include>
 </record_update>

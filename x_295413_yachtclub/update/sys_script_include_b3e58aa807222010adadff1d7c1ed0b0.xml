@@ -2,13 +2,13 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>x_295413_yachtclub.ShowYacht</api_name>
+        <api_name>x_295413_yachtclub.yachtDateFilter </api_name>
         <caller_access/>
-        <client_callable>true</client_callable>
-        <description>The reference Qualifer to display yachts on selected dates </description>
-        <name>ShowYacht</name>
-        <script><![CDATA[var ShowYacht = Class.create();
-ShowYacht.prototype = {
+        <client_callable>false</client_callable>
+        <description/>
+        <name>yachtDateFilter </name>
+        <script><![CDATA[var yachtDateFilter = Class.create();
+yachtDateFilter.prototype = {
     initialize: function(grRecord) {
         if (grRecord instanceof GlideRecord) {
             this.rentID = grRecord.getUniqueValue();
@@ -25,7 +25,7 @@ ShowYacht.prototype = {
 
     myRent: function(yId) {
 
-        var yachtId = yId.getUniqueValue();
+        var yachtId = yId;
         gs.info('The booked yacht value is' + yachtId);
         var count = 0;
 
@@ -34,89 +34,96 @@ ShowYacht.prototype = {
         gs.info('the current values for dates are' + user_Start_Date + user_End_Date);
 
         var lstRent = new GlideAggregate("x_295413_yachtclub_u_rent");
-        // gs.info('The boat value is' + u_boat);
+        gs.info('The boat values is' + this.u_boat + yachtId);
         var myQuery = 'u_boat=' + yachtId + '^';
-        myQuery += 'u_rent_date_start<' + user_End_Date + '^';
-        myQuery += 'NQ';
+        myQuery += 'u_rent_date_start<=' + user_Start_Date + '^';
+        myQuery += 'u_rent_date_end>=' + user_Start_Date;
+        myQuery += '^NQ';
         myQuery += 'u_boat=' + yachtId + '^';
-        myQuery += 'u_rent_date_end>' + user_Start_Date;
-
-
+        myQuery += 'u_rent_date_start<=' + user_End_Date + '^';
+        myQuery += 'u_rent_date_end>=' + user_End_Date;
         lstRent.addAggregate('COUNT');
         lstRent.addEncodedQuery(myQuery);
         lstRent.query();
-
-
         if (lstRent.next()) {
             count = parseInt(lstRent.getAggregate('COUNT'), 10);
+
+
         }
-
-        return (count >= 1); // if the query is pass and aggregate is incremented then pass the yacht to YachtList 
-
-
+        gs.info(count);
+        return (count != 0); // the count will be more than 1 if the yacht has non collision dates 
+        // count will be 0 if dates are colliding and pass true to splice function
     },
 
     myYacht: function() {
         var yachtList = [];
         gs.info('This is call from my function');
-        var ids = [];
+        //the grYacht is accesed, the sys_id into string, ids are pushed into array yachtList
+
         var grYacht = new GlideRecord("x_295413_yachtclub_u_yacht");
         // the yatches that are available
-        grYacht.addEncodedQuery('u_state=1');
+        grYacht.addEncodedQuery('u_state=2');
         grYacht.query();
         while (grYacht.next()) {
+
             //the grYacht is accesed, the sys_id into string, ids are pushed into array yachtList
             gs.info('Query adding available yachts into yachtList');
             yachtList.push(grYacht.sys_id.toString());
 
             //  yachtList.push(grYacht.sys_id.toString());
         }
-        grYacht = new GlideRecord("x_295413_yachtclub_u_yacht");
-        // Yachts that are booked 
+        gs.info(yachtList);
         //Same yacht is booked for 2 diffrent dates, if one date is collapsing then the yacht cannot be added 
-        grYacht.addEncodedQuery('u_state=2');
-        grYacht.query();
+        // take array with the yachts that are available and booked, pass array to the function that pullouts the yacht if it is colliding the dates 
+        //pass Yachtlist to loop 
+        // call myRent
+        //var newArr=yachtList
 
-        while (grYacht.next()) {
-            //the grYacht is accesed, the sys_id into string, ids are pushed into array yachtList
+        for (var i = 0; i < yachtList.length; i++) {
 
-            if (this.myRent(grYacht)) {
-                yachtList.push(grYacht.sys_id.toString());
+            if (this.myRent(yachtList[i])) {
+                yachtList.splice(i, 1);
+                --i;
+
             }
+        }
 
+        grYacht = new GlideRecord("x_295413_yachtclub_u_yacht");
+        grYacht.addEncodedQuery('u_state=1');
+        grYacht.query();
+        while (grYacht.next()) {
+            //the grYacht is accesed, the sys_id into string, ids are pushed into array yachtLis
 
+            gs.info('Query adding available yachts into yachtList');
 
+            yachtList.push(grYacht.sys_id.toString());
+
+            //  yachtList.push(grYacht.sys_id.toString());
         }
         return yachtList;
-
-
     },
-    myFunction: function() {
 
+    myFunction1: function() {
 
         if ((!this.rentGr.u_rent_date_start.nil()) && (!this.rentGr.u_rent_date_end.nil())) {
-                return 'sys_idIN' + this.myYacht();
+            return 'sys_idIN' + this.myYacht();
         }
-		
 
-   
 
     },
-
-
-    type: 'ShowYacht'
+    type: 'yachtDateFilter'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-09 20:35:17</sys_created_on>
-        <sys_id>4d65a5ec079e6010adadff1d7c1ed05e</sys_id>
-        <sys_mod_count>89</sys_mod_count>
-        <sys_name>ShowYacht</sys_name>
+        <sys_created_on>2021-02-22 09:03:53</sys_created_on>
+        <sys_id>b3e58aa807222010adadff1d7c1ed0b0</sys_id>
+        <sys_mod_count>72</sys_mod_count>
+        <sys_name>yachtDateFilter </sys_name>
         <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
-        <sys_update_name>sys_script_include_4d65a5ec079e6010adadff1d7c1ed05e</sys_update_name>
+        <sys_update_name>sys_script_include_b3e58aa807222010adadff1d7c1ed0b0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-25 05:17:41</sys_updated_on>
+        <sys_updated_on>2021-02-25 07:21:14</sys_updated_on>
     </sys_script_include>
 </record_update>

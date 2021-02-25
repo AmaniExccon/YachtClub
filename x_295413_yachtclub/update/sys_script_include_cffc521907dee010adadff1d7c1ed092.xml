@@ -11,7 +11,7 @@
 rentDateUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     validateStartDate: function() {
         var se_start_date = this.getParameter('sysparm_fdt');
-        var currentDate= new GlideDate();
+        var currentDate = new GlideDate();
         if (se_start_date != '' && se_start_date < currentDate) //
         {
             return 1; // Start Date Entered is in past
@@ -20,6 +20,17 @@ rentDateUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
             return 0;
     },
 
+    validateEndDate: function() {
+        var se_start_date = this.getParameter('sysparm_sdt');
+        var se_end_date = this.getParameter('sysparm_edt');
+     
+        if (se_start_date != '' && se_end_date < se_start_date) 
+        {
+            return 1; // End Date Entered is before start date
+
+        } else
+            return 0;
+    },
 
     type: 'rentDateUtility '
 });]]></script>
@@ -27,13 +38,13 @@ rentDateUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-12 08:36:12</sys_created_on>
         <sys_id>cffc521907dee010adadff1d7c1ed092</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>rentDateUtility </sys_name>
         <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
         <sys_update_name>sys_script_include_cffc521907dee010adadff1d7c1ed092</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-15 11:01:47</sys_updated_on>
+        <sys_updated_on>2021-02-17 14:42:17</sys_updated_on>
     </sys_script_include>
 </record_update>

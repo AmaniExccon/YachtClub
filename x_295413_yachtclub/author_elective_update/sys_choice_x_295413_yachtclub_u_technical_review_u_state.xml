@@ -6,7 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-02-01 10:58:54</sys_created_on>
-            <sys_id>aec75a3d07822010adadff1d7c1ed0f3</sys_id>
+            <sys_id>8e968fae075e2010adadff1d7c1ed0c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_state</sys_name>
             <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
@@ -21,19 +21,38 @@
             <element>u_state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Under Maintenance</label>
+            <label>UpComing</label>
             <language>en</language>
             <name>x_295413_yachtclub_u_technical_review</name>
             <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-18 11:10:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af6d791f075aa010adadff1d7c1ed031</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-18 11:11:31</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Under Maintenance</label>
+            <language>en</language>
+            <name>x_295413_yachtclub_u_technical_review</name>
+            <sequence>2</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-02-01 10:58:54</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>56875a3d07822010adadff1d7c1ed0f0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-01 10:58:54</sys_updated_on>
-            <value>1</value>
+            <sys_updated_on>2021-02-18 11:11:15</sys_updated_on>
+            <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -43,16 +62,16 @@
             <label>Delivered</label>
             <language>en</language>
             <name>x_295413_yachtclub_u_technical_review</name>
-            <sequence>2</sequence>
+            <sequence>3</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-02-01 10:59:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>28d71ab907822010adadff1d7c1ed04c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-01 10:59:37</sys_updated_on>
-            <value>2</value>
+            <sys_updated_on>2021-02-18 11:11:06</sys_updated_on>
+            <value>3</value>
         </sys_choice>
     </sys_choice>
 </record_update>
