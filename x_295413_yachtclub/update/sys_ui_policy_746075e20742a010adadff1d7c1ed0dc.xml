@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_295413_yachtclub_u_return_protocol">u_rent.u_status=2^ORu_rent.u_status=4^EQ<item display_value="2" endquery="false" field="u_rent.u_status" goto="false" newquery="false" operator="=" or="false" value="2"/>
+        <conditions table="x_295413_yachtclub_u_protocol">u_rent.u_status=2^ORu_rent.u_status=4^EQ<item display_value="2" endquery="false" field="u_rent.u_status" goto="false" newquery="false" operator="=" or="false" value="2"/>
             <item display_value="4" endquery="false" field="u_rent.u_status" goto="false" newquery="false" operator="=" or="true" value="4"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>746075e20742a010adadff1d7c1ed0dc</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Hide return protocal feild till user book return yacht</sys_name>
         <sys_overrides/>
         <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
@@ -37,8 +37,8 @@
         <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
         <sys_update_name>sys_ui_policy_746075e20742a010adadff1d7c1ed0dc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-23 17:00:06</sys_updated_on>
-        <table>x_295413_yachtclub_u_return_protocol</table>
+        <sys_updated_on>2021-02-27 23:51:58</sys_updated_on>
+        <table>x_295413_yachtclub_u_protocol</table>
         <ui_type>0</ui_type>
         <view/>
     </sys_ui_policy>

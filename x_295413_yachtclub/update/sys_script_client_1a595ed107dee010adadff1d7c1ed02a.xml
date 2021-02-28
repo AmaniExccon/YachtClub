@@ -28,7 +28,7 @@
         if (answer == 1) {
             g_form.showFieldMsg('u_rent_date_start', "The start date can't be in past", 'error');
         } else if(answer==0) {
-            alert("StartDate is valid ");
+              g_form.showFieldMsg('u_rent_date_start','start Date is valid','info');
         }
 
 
@@ -39,7 +39,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1a595ed107dee010adadff1d7c1ed02a</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>startDateValidation </sys_name>
         <sys_overrides/>
         <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
@@ -47,7 +47,7 @@
         <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
         <sys_update_name>sys_script_client_1a595ed107dee010adadff1d7c1ed02a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 14:29:28</sys_updated_on>
+        <sys_updated_on>2021-02-26 10:17:56</sys_updated_on>
         <table>x_295413_yachtclub_u_rent</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

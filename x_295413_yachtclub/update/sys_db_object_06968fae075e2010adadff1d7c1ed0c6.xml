@@ -14,7 +14,7 @@
         <label>Return Protocol</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_295413_yachtclub_u_return_protocol</name>
-        <number_ref display_value="PRO">83f469ea0702a010adadff1d7c1ed07b</number_ref>
+        <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

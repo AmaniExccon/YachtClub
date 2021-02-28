@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Technical Review" max_length="40" name="x_295413_yachtclub_u_technical_review" sizeclass="2" type="collection">
+    <element label="Technical Review" max_length="40" name="x_295413_yachtclub_u_technical_review" sizeclass="3" type="collection">
         <element label="Max Attendees" mandatory="true" max_length="40" name="max_attendees" type="integer"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="1" label="Approve " max_length="40" name="u_approve" type="choice">
