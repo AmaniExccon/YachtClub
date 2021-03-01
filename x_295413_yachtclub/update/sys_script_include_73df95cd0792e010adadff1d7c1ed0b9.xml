@@ -27,18 +27,61 @@ showStartDate.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         grRent.query();
 
         while (grRent.next()) {
-            gs.info('The while is triggered');
+
             var obj1 = {};
             obj1.yacht = grRent.u_boat.getDisplayValue();
-            obj1.startDate= grRent.u_rent_date_start.getDisplayValue();
-            obj1.endDate= grRent.u_rent_date_end.getDisplayValue();
-            gs.info('The while is completed');
+            obj1.startDate = grRent.u_rent_date_start.getDisplayValue();
+            obj1.endDate = grRent.u_rent_date_end.getDisplayValue();
+
             result1.push(obj1);
         }
 
         gs.info(result1);
+        var date_sort_asc = function(date1, date2) {
+            if (GlideDateTime(date1.startDate) > GlideDateTime(date2.startDate)) return 1;
 
-        return JSON.stringify(result1);
+            if (GlideDateTime(date1.startDate) < GlideDateTime(date2.startDate)) return -1;
+
+            return 0;
+
+        };
+        result1.sort(date_sort_asc);
+
+        var currentDate = new GlideDate();
+        gs.info(currentDate);
+        var duration = new GlideDuration('3 00:00:00');
+        gs.info(duration.getDisplayValue());
+        for (var i = 0; i < result1.length; i++) { //Loop into the array
+            gs.info("the selected  " + result1[i].yacht + " Yacht is booked from " + result1[i].startDate + " to " + result1[i].endDate);
+            var sgd1 = new GlideDate();
+            sgd1.setDisplayValue(result1[i].startDate);
+            var durationDiff = GlideDate.subtract(currentDate, sgd1);
+            gs.info('The start date is after ' + durationDiff.getDisplayValue());
+
+            if (durationDiff > duration) {
+                gs.info('The start date is greater than 3 days');
+                var gdt = new GlideDateTime(currentDate);
+                //gs.info(gdt);     
+                gdt.addDaysUTC(1);
+                var stDat = gdt.getDate();
+                gs.info('The possible available date is   ' + stDat);
+
+                //gs.info(gdt.getDate());
+                break;
+
+            } else {
+                gs.info('this start date is LESS than 3 days ');
+                currentDate = new GlideDate();
+                currentDate.setDisplayValue(result1[i].endDate);
+                gs.info('the current date is date ' + currentDate);
+
+
+            }
+
+        }
+        gs.info("Final results The selected" + result1[i].yacht + " is available earlie from  " + stDat);
+
+        return stDat;
 
 
     },
@@ -49,13 +92,13 @@ showStartDate.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-11 10:25:48</sys_created_on>
         <sys_id>73df95cd0792e010adadff1d7c1ed0b9</sys_id>
-        <sys_mod_count>55</sys_mod_count>
+        <sys_mod_count>67</sys_mod_count>
         <sys_name>showStartDate </sys_name>
         <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
         <sys_update_name>sys_script_include_73df95cd0792e010adadff1d7c1ed0b9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-18 13:57:19</sys_updated_on>
+        <sys_updated_on>2021-03-01 15:05:44</sys_updated_on>
     </sys_script_include>
 </record_update>
