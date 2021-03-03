@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_has_new_damages" table="x_295413_yachtclub_u_return_protocol">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Has New Damages</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_has_new_damages</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="">boolean</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_295413_yachtclub_u_return_protocol</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 09:49:03</sys_created_on>
+        <sys_id>ed9c4bf107462010adadff1d7c1ed0a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Has New Damages</sys_name>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_update_name>sys_dictionary_x_295413_yachtclub_u_return_protocol_u_has_new_damages</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 14:49:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</application>
+        <file_path/>
+        <instance_id>5e528beadb224450b847ac44d496195d</instance_id>
+        <instance_name>dev97950</instance_name>
+        <name>sys_dictionary_x_295413_yachtclub_u_return_protocol_u_has_new_damages</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;
+    &lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_has_new_damages" table="x_295413_yachtclub_u_return_protocol"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;array&gt;false&lt;/array&gt;
+        &lt;array_denormalized&gt;false&lt;/array_denormalized&gt;
+        &lt;attributes/&gt;
+        &lt;audit&gt;false&lt;/audit&gt;
+        &lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;
+        &lt;choice/&gt;
+        &lt;choice_field/&gt;
+        &lt;choice_table/&gt;
+        &lt;column_label&gt;Has New Damages&lt;/column_label&gt;
+        &lt;comments/&gt;
+        &lt;create_roles/&gt;
+        &lt;default_value/&gt;
+        &lt;defaultsort/&gt;
+        &lt;delete_roles/&gt;
+        &lt;dependent/&gt;
+        &lt;dependent_on_field/&gt;
+        &lt;display&gt;false&lt;/display&gt;
+        &lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;
+        &lt;dynamic_creation_script/&gt;
+        &lt;dynamic_default_value/&gt;
+        &lt;dynamic_ref_qual/&gt;
+        &lt;element&gt;u_has_new_damages&lt;/element&gt;
+        &lt;element_reference&gt;false&lt;/element_reference&gt;
+        &lt;foreign_database/&gt;
+        &lt;function_definition/&gt;
+        &lt;function_field&gt;false&lt;/function_field&gt;
+        &lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;
+        &lt;mandatory&gt;false&lt;/mandatory&gt;
+        &lt;max_length&gt;40&lt;/max_length&gt;
+        &lt;name&gt;x_295413_yachtclub_u_return_protocol&lt;/name&gt;
+        &lt;next_element/&gt;
+        &lt;primary&gt;false&lt;/primary&gt;
+        &lt;read_only&gt;false&lt;/read_only&gt;
+        &lt;read_roles/&gt;
+        &lt;reference/&gt;
+        &lt;reference_cascade_rule/&gt;
+        &lt;reference_floats&gt;false&lt;/reference_floats&gt;
+        &lt;reference_key/&gt;
+        &lt;reference_qual/&gt;
+        &lt;reference_qual_condition/&gt;
+        &lt;reference_type/&gt;
+        &lt;sizeclass/&gt;
+        &lt;spell_check&gt;false&lt;/spell_check&gt;
+        &lt;staged&gt;false&lt;/staged&gt;
+        &lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2021-02-01 09:49:03&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ed9c4bf107462010adadff1d7c1ed0a3&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Has New Damages&lt;/sys_name&gt;
+        &lt;sys_package display_value="Yacht Club" source="x_295413_yachtclub"&gt;94499bab07a86010b26bf2508c1ed038&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Yacht Club"&gt;94499bab07a86010b26bf2508c1ed038&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_dictionary_x_295413_yachtclub_u_return_protocol_u_has_new_damages&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2021-02-01 14:49:41&lt;/sys_updated_on&gt;
+        &lt;table_reference&gt;false&lt;/table_reference&gt;
+        &lt;text_index&gt;false&lt;/text_index&gt;
+        &lt;unique&gt;false&lt;/unique&gt;
+        &lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;
+        &lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;
+        &lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;
+        &lt;virtual&gt;false&lt;/virtual&gt;
+        &lt;widget/&gt;
+        &lt;write_roles/&gt;
+        &lt;xml_view&gt;false&lt;/xml_view&gt;
+    &lt;/sys_dictionary&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1539573910</payload_hash>
+        <record_name>Return Protocol.Has New Damages </record_name>
+        <reverted_from/>
+        <source>aace070f07222010adadff1d7c1ed0db</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-02 08:43:20</sys_created_on>
+        <sys_id>23de4b0f07222010adadff1d7c1ed0bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177f21b21580000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-02 08:43:20</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>6fde4b0f47222010004ffc4c7972afbc</update_guid>
+        <update_guid_history>6fde4b0f47222010004ffc4c7972afbc:0,791a0b0bf222201022ff0be169089d5a:-2009666172,90a643ee7d5e201093614b734b650d49:0,ad434b2e585e2010ad54e65e1259c003:-2009666172,d5133a194d1224104694e7e4112bfc5b:0,784276d5f11224104d824de35e9c1dd0:-2009666172,100b7246bece20108ab37229122a0801:0,cf6af206b0ce2010865219329b4419b6:-2009666172,16d8368256ce201019b057f62b14dbc9:0,a9d676023dce201075e5633af2c02c3b:-2009666172,2a0eb8c2828a20106fe659156edf6e41:0,f8c5b08e884a20109b1cf2d307544561:-2009666172,95572406724a20103ca9949777bad050:0,b9dd1c4eca0a2010565b89c926000f04:-2009666172,4278e7f9f18620108446fd7bc31b8df0:0,a8f7ebb9ca86201079c58e88eb41d9b7:-2009666172,2cf4efb50a8620109f53bc52f4eff491:0,4c3423b5bd862010b776acd6b44fe388:-2009666172,80a167f1ce862010760c52b77ea67d43:0,c1612fb11b862010069bdc02fd7de500:-2009666172,9b9c0ff111462010219c7dccaf44d487:0,59d94b71544620105fe420e1f10ce974:-2009666172,4ed543bdcc06201007904a4448ba1ede:0,5e950b7d360620106901a951e7d5a5c6:1651112140,67c70e3178822010e6ea55677ca051e8:-495692544</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-02 08:51:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>0e1e3f3a9b464d2098eedc9044ebfc64</sys_id>
+        <sys_metadata>54de870f07222010adadff1d7c1ed048</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Has New Damages</sys_name>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_parent display_value="">50de870f07222010adadff1d7c1ed03f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_scope_delete display_value="">30da5e27c993460f93ff8ac00b66dfa1</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_295413_yachtclub_u_return_protocol_u_has_new_damages</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_295413_yachtclub_u_return_protocol_u_has_new_damages">23de4b0f07222010adadff1d7c1ed0bd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-02 08:51:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

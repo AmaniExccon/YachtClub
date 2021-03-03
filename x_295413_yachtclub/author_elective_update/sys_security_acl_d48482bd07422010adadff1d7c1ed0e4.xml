@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_295413_yachtclub_u_return_protocol</description>
+        <name>x_295413_yachtclub_u_return_protocol</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 09:34:38</sys_created_on>
+        <sys_id>d48482bd07422010adadff1d7c1ed0e4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_295413_yachtclub_u_return_protocol</sys_name>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_update_name>sys_security_acl_d48482bd07422010adadff1d7c1ed0e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-03 12:37:36</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</application>
+        <file_path/>
+        <instance_id>5e528beadb224450b847ac44d496195d</instance_id>
+        <instance_name>dev97950</instance_name>
+        <name>sys_security_acl_d48482bd07422010adadff1d7c1ed0e4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_295413_yachtclub_u_return_protocol</description>
+        <name>x_295413_yachtclub_u_return_protocol</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 09:34:38</sys_created_on>
+        <sys_id>d48482bd07422010adadff1d7c1ed0e4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_295413_yachtclub_u_return_protocol</sys_name>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_update_name>sys_security_acl_d48482bd07422010adadff1d7c1ed0e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-03 12:37:36</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>]]></payload>
+        <payload_hash>732594323</payload_hash>
+        <record_name>x_295413_yachtclub_u_return_protocol</record_name>
+        <reverted_from/>
+        <source>aace070f07222010adadff1d7c1ed0db</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-02 08:43:44</sys_created_on>
+        <sys_id>e9fe034f07222010adadff1d7c1ed0cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177f21b819d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-02 08:43:44</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>29fe034ffc22201074db71af3d0156cb</update_guid>
+        <update_guid_history>29fe034ffc22201074db71af3d0156cb:0,911ac70ba52220101c6820089f5b1bc6:458962911,dfa647ee8e5e2010911dee64bbded808:0,0d430b2e745e201024f49f430fd6ac62:458962911,9c233e193712241010292caaf5c7b7a0:0,4c4276d57e12241052ad88048f884f23:458962911,cc9109e29cce6010ba2360c29265e0d6:1087088083,0e0bf246b2ce20109a09d0ef90ae9e35:0,626af206fece2010115fec8f960b1b49:2082491638,18e8f68259ce2010de82e3b1501e392c:0,8dd636020cce20102ab18946f858f79a:2082491638,241e3cc2118a20108ba9f1792d1c0559:0,18c5708e704a2010b52ec7a1cb86dacb:2082491638,5757e406d34a2010cedbc9c8790ff418:0,1dddd84eb10a2010776315d12b89ff33:2082491638,4488abf9938620104d0f913cf0107822:0,58f7ebb96a862010bc219ff662c20932:2082491638,66f4a3f548862010e516c7e6c935e881:0,e72423b53686201007025a6e7f22c002:2082491638,f5a12bf1668620104bab215d8a182a04:0,2861ebb18d862010ec3baf694cdad977:2082491638,19accff1264620104fe09bbeda3d26ac:0,0dd90b71f6462010eb986063febfaac5:2082491638,f3d507bd7f06201002388ffacc4eef03:0,79950b7d13062010c7985b4cb573830c:2082491638,d48482bd314220102e04426c885718e6:-391098238</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-02 08:50:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>1520e26378b149c086f343a8e6701a40</sys_id>
+        <sys_metadata>d48482bd07422010adadff1d7c1ed0e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_295413_yachtclub_u_return_protocol</sys_name>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_parent display_value="">50de870f07222010adadff1d7c1ed042</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_scope_delete display_value="">30da5e27c993460f93ff8ac00b66dfa1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_d48482bd07422010adadff1d7c1ed0e4</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_d48482bd07422010adadff1d7c1ed0e4">e9fe034f07222010adadff1d7c1ed0cb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-02 08:50:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

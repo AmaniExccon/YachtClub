@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Return Proto">0c8482bd07422010adadff1d7c1ed0b0</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Return Protocols</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_295413_yachtclub_u_return_protocol</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_295413_yachtclub.return_protocol_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 09:34:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c08482bd07422010adadff1d7c1ed0b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Return Protocols</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_update_name>sys_app_module_c08482bd07422010adadff1d7c1ed0b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 09:34:37</sys_updated_on>
+        <timeline_page/>
+        <title>Return Protocols</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</application>
+        <file_path/>
+        <instance_id>5e528beadb224450b847ac44d496195d</instance_id>
+        <instance_name>dev97950</instance_name>
+        <name>sys_app_module_c08482bd07422010adadff1d7c1ed0b3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Return Proto">0c8482bd07422010adadff1d7c1ed0b0</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Return Protocols</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_295413_yachtclub_u_return_protocol</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_295413_yachtclub.return_protocol_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 09:34:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c08482bd07422010adadff1d7c1ed0b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Return Protocols</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_update_name>sys_app_module_c08482bd07422010adadff1d7c1ed0b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 09:34:37</sys_updated_on>
+        <timeline_page/>
+        <title>Return Protocols</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>1421794989</payload_hash>
+        <record_name>Return Protocols</record_name>
+        <reverted_from/>
+        <source>aace070f07222010adadff1d7c1ed0db</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-02 08:43:26</sys_created_on>
+        <sys_id>01eecb0f07222010adadff1d7c1ed04e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177f21b38a70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-02 08:43:26</sys_updated_on>
+        <type>Module</type>
+        <update_guid>4deecb0fcb222010170b2b20bb2d2e4d</update_guid>
+        <update_guid_history>4deecb0fcb222010170b2b20bb2d2e4d:0,65f9430bbe222010306232810ec0e227:492726545,9ce90fc7fd222010849ca46a3a3459a2:0,19a683eec15e20104f83c8e1e0db2eb1:0,3523832e3f5e20102d39b7ec88c02626:492726545,e5138feaeb5e20106583ba60a39ec7a0:0,52137a19b01224108338124f21dfbbc9:0,203272d5d1122410927185bd4cfb5b91:492726545,0922be95ce122410380fe7178f723c2d:0,dd0bb24688ce2010e991dd6d9701e123:0,c75abec2a0ce201084cfc65d039de8f8:492726545,025a7ec248ce20104d3f989dbc490f6f:0,e7d8b68297ce2010950b02c43839b302:0,e6c6720212ce2010de8a596bd62d248b:492726545,49c632025fce20100d46cdc34ddf5825:0,e30ef8c2a48a20100d5ec1680c959a56:0,5ba5f84ead4a20109fab8b8953d35f80:492726545,daa5b84e534a20101616633b2107293e:0,9657a406804a20107a3f840933c13202:0,abbd144e960a201045c16c35ad754fed:492726545,d2bdd04e1d0a2010bd6abc6bf9a4b5a7:0,07786bf99e862010021ca44159c39f11:0,a4e7a7b9c4862010a7d93f8976d977e6:492726545,d3d767b9b8862010645f1fc624b40074:0,39f463f59986201047fd7df925f0b940:0,9614ab752d862010df92aa3c97d8535f:492726545,85146b75af862010062f693be3bb5515:0,01a1a7f1308620102056ff7cb56784b9:0,b1512bb1db86201071e3594b146db31b:492726545,9451a7b143862010df277049e4ce4771:0,5cac4ff130462010a5219c5aaacdf3de:0,20c98371e646201057698065d05689b2:492726545,52b9cf3176462010f2f97409a129d7fb:0,8fd5c3bdbe062010075488e1905c0f10:0,8385077dab062010c4754dfd5c5ff4b6:492726545,b585c37d2f06201014b56842a346b819:0,4c8482bdb642201034b57837d278b6b4:-518780089</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Return Protocols">d7905f8f07222010adadff1d7c1ed05b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-02 08:50:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>b0fa98d155be424fa5add35fade936b9</sys_id>
+        <sys_metadata>c08482bd07422010adadff1d7c1ed0b3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Return Protocols</sys_name>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_scope_delete display_value="">30da5e27c993460f93ff8ac00b66dfa1</sys_scope_delete>
+        <sys_update_name>sys_app_module_c08482bd07422010adadff1d7c1ed0b3</sys_update_name>
+        <sys_update_version display_value="sys_app_module_c08482bd07422010adadff1d7c1ed0b3">01eecb0f07222010adadff1d7c1ed04e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-02 08:50:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

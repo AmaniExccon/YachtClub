@@ -28,9 +28,5 @@
         <index name="index2">
             <element name="u_member"/>
         </index>
-        <element label="Protocol" max_length="32" name="u_protocol" reference="x_295413_yachtclub_u_return_protocol" type="reference"/>
-        <index name="index">
-            <element name="u_protocol"/>
-        </index>
     </element>
 </database>

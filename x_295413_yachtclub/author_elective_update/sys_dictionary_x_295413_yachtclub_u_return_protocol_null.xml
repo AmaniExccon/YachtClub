@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="" table="x_295413_yachtclub_u_return_protocol">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Collection">collection</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_295413_yachtclub_u_return_protocol</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass>57</sizeclass>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 09:34:38</sys_created_on>
+        <sys_id>02968fae075e2010adadff1d7c1ed0c8</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>x_295413_yachtclub_u_return_protocol</sys_name>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_update_name>sys_dictionary_x_295413_yachtclub_u_return_protocol_null</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-02-26 10:44:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</application>
+        <file_path/>
+        <instance_id>5e528beadb224450b847ac44d496195d</instance_id>
+        <instance_name>dev97950</instance_name>
+        <name>sys_dictionary_x_295413_yachtclub_u_return_protocol_null</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;
+    &lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_295413_yachtclub_u_return_protocol"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;array&gt;false&lt;/array&gt;
+        &lt;array_denormalized&gt;false&lt;/array_denormalized&gt;
+        &lt;attributes/&gt;
+        &lt;audit&gt;false&lt;/audit&gt;
+        &lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;
+        &lt;choice/&gt;
+        &lt;choice_field/&gt;
+        &lt;choice_table/&gt;
+        &lt;column_label/&gt;
+        &lt;comments/&gt;
+        &lt;create_roles/&gt;
+        &lt;default_value/&gt;
+        &lt;defaultsort/&gt;
+        &lt;delete_roles/&gt;
+        &lt;dependent/&gt;
+        &lt;dependent_on_field/&gt;
+        &lt;display&gt;false&lt;/display&gt;
+        &lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;
+        &lt;dynamic_creation_script/&gt;
+        &lt;dynamic_default_value/&gt;
+        &lt;dynamic_ref_qual/&gt;
+        &lt;element/&gt;
+        &lt;element_reference&gt;false&lt;/element_reference&gt;
+        &lt;foreign_database/&gt;
+        &lt;function_definition/&gt;
+        &lt;function_field&gt;false&lt;/function_field&gt;
+        &lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;
+        &lt;mandatory&gt;false&lt;/mandatory&gt;
+        &lt;max_length&gt;40&lt;/max_length&gt;
+        &lt;name&gt;x_295413_yachtclub_u_return_protocol&lt;/name&gt;
+        &lt;next_element/&gt;
+        &lt;primary&gt;false&lt;/primary&gt;
+        &lt;read_only&gt;false&lt;/read_only&gt;
+        &lt;read_roles/&gt;
+        &lt;reference/&gt;
+        &lt;reference_cascade_rule/&gt;
+        &lt;reference_floats&gt;false&lt;/reference_floats&gt;
+        &lt;reference_key/&gt;
+        &lt;reference_qual/&gt;
+        &lt;reference_qual_condition/&gt;
+        &lt;reference_type/&gt;
+        &lt;sizeclass&gt;57&lt;/sizeclass&gt;
+        &lt;spell_check&gt;false&lt;/spell_check&gt;
+        &lt;staged&gt;false&lt;/staged&gt;
+        &lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2021-02-01 09:34:38&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;02968fae075e2010adadff1d7c1ed0c8&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;x_295413_yachtclub_u_return_protocol&lt;/sys_name&gt;
+        &lt;sys_package display_value="Yacht Club" source="x_295413_yachtclub"&gt;94499bab07a86010b26bf2508c1ed038&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Yacht Club"&gt;94499bab07a86010b26bf2508c1ed038&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_dictionary_x_295413_yachtclub_u_return_protocol_null&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2021-02-26 10:44:35&lt;/sys_updated_on&gt;
+        &lt;table_reference&gt;false&lt;/table_reference&gt;
+        &lt;text_index&gt;false&lt;/text_index&gt;
+        &lt;unique&gt;false&lt;/unique&gt;
+        &lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;
+        &lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;
+        &lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;
+        &lt;virtual&gt;false&lt;/virtual&gt;
+        &lt;widget/&gt;
+        &lt;write_roles/&gt;
+        &lt;xml_view&gt;false&lt;/xml_view&gt;
+    &lt;/sys_dictionary&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1432040673</payload_hash>
+        <record_name>Return Protocol</record_name>
+        <reverted_from/>
+        <source>aace070f07222010adadff1d7c1ed0db</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-02 08:43:19</sys_created_on>
+        <sys_id>ebde4b0f07222010adadff1d7c1ed0ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177f21b1feb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-02 08:43:19</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>2bde4b0f8c222010620821913764d5ad</update_guid>
+        <update_guid_history>2bde4b0f8c222010620821913764d5ad:0,611a0b0b412220102e8df1da97567f24:1759432789,40a643eec85e20107256cd58f95dd63a:0,55430b2e7c5e20103d0d19237cfb5cc1:1378723093,95133a192f1224103ede4f50d33f6826:0,204276d51f122410c6cb035eacb83d8d:1378723093,180b32463bce20103df96972fc02f8f9:0,ba6af2062fce2010014e120a71e75588:-833486440,56d8368270ce2010cecc628a563338b5:0,19d63602bace2010404c2852c05499f3:-833486440,260eb8c2208a2010a64f8629c678133a:0,b8c5b08e9f4a2010feefa2a7fad86125:-833486440,1d5724063b4a20101d191956f159423c:0,6dddd84e5c0a20105545f5caac6ec4bd:-833486440,4e78e7f93e862010f00ac5789c7d7be8:0,64f7ebb9388620109b292c71218f2489:-833486440,24f4efb5aa862010a502e6f7b5f9308a:0,3b2423b58c862010acbe6e3d945f685a:-833486440,8ca167f1e3862010842cdd582fb75d3b:0,f861ebb1998620104c233706fbfa72b7:-833486440,1b9c0ff1a14620109e3de97207d84780:0,d5d94b71294620106026522101542e2c:-833486440,75d543bd5a0620103750b13c151e86d7:0,c2950b7d03062010d2d884b905d55272:1378723093,588482bd37422010a4214a008746e4fe:-1745641012</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-02 08:51:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>0b7e63f3756d4cb080ce87799613e040</sys_id>
+        <sys_metadata>50de870f07222010adadff1d7c1ed042</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_295413_yachtclub_u_return_protocol</sys_name>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_parent display_value="">50de870f07222010adadff1d7c1ed03f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_scope_delete display_value="">30da5e27c993460f93ff8ac00b66dfa1</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_295413_yachtclub_u_return_protocol_NULL</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_295413_yachtclub_u_return_protocol_null">ebde4b0f07222010adadff1d7c1ed0ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-02 08:51:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
