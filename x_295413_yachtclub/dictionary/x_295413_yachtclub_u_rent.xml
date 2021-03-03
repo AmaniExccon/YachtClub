@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Rents" max_length="40" name="x_295413_yachtclub_u_rent" sizeclass="14" type="collection">
+    <element label="Rents" max_length="40" name="x_295413_yachtclub_u_rent" sizeclass="2" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="1" label="Approval" max_length="40" name="u_approval" type="choice">
             <choice>
@@ -12,7 +12,6 @@
         <element label="Yacht" max_length="32" name="u_boat" reference="x_295413_yachtclub_u_yacht" reference_qual="javascript:new yachtDateFilter(current) .myFunction1();" type="reference" use_reference_qualifier="advanced"/>
         <element label="Member" mandatory="true" max_length="32" name="u_member" read_only="true" reference="sys_user" type="reference"/>
         <element label="Price" max_length="20" name="u_price" type="price"/>
-        <element label="Protocol" max_length="32" name="u_protocol" reference="x_295413_yachtclub_u_return_protocol" type="reference"/>
         <element label="Rent Date End" mandatory="true" max_length="40" name="u_rent_date_end" type="glide_date"/>
         <element label="Rent Date Start" mandatory="true" max_length="40" name="u_rent_date_start" type="glide_date"/>
         <element choice="1" label="Status" max_length="40" name="u_status" type="choice">
@@ -24,13 +23,14 @@
             </choice>
         </element>
         <index name="index">
-            <element name="u_protocol"/>
-        </index>
-        <index name="index2">
             <element name="u_boat"/>
         </index>
-        <index name="index3">
+        <index name="index2">
             <element name="u_member"/>
+        </index>
+        <element label="Protocol" max_length="32" name="u_protocol" reference="x_295413_yachtclub_u_return_protocol" type="reference"/>
+        <index name="index">
+            <element name="u_protocol"/>
         </index>
     </element>
 </database>

@@ -19,7 +19,7 @@
         <is_rest>false</is_rest>
         <message/>
         <name>Caluculate Price  on Insert </name>
-        <order>900</order>
+        <order>200</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -31,10 +31,10 @@
 
     var totalPrice = 0.00;
     var price = current.u_boat.u_price;
-    var cost = current.u_boat.u_cost;
+ 
     var milePrice = current.u_boat.u_price_per_mile;
-    var mileCost = current.u_boat.u_cost_per_mile;
-    totalPrice = price * milePrice + cost * mileCost;
+
+    totalPrice = price * milePrice;
 
 
     current.u_price = totalPrice;
@@ -46,7 +46,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>208533ce07426010adadff1d7c1ed07f</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Caluculate Price  on Insert </sys_name>
         <sys_overrides/>
         <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
@@ -54,7 +54,7 @@
         <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
         <sys_update_name>sys_script_208533ce07426010adadff1d7c1ed07f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-26 09:02:26</sys_updated_on>
+        <sys_updated_on>2021-03-03 08:08:29</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

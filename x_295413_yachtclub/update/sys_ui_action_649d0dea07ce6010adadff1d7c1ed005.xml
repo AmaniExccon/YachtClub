@@ -29,15 +29,19 @@
         <name>Create Return Protocal</name>
         <onclick/>
         <order>200</order>
-        <script><![CDATA[var rca = new GlideRecord("x_295413_yachtclub_u_protocol");
+        <script><![CDATA[current.u_status=4;
+current.update();
+var rca = new GlideRecord("x_295413_yachtclub_u_protocol");
 rca.addQuery('u_rent', current.sys_id);
 rca.query();
 if (rca.next()) {
     action.setRedirectURL(rca);
 }
-current.u_status=4;
-current.update();
-action.setReturnURL(current);]]></script>
+
+action.setReturnURL(current);
+
+
+]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -48,7 +52,7 @@ action.setReturnURL(current);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>649d0dea07ce6010adadff1d7c1ed005</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Create Return Protocal</sys_name>
         <sys_overrides/>
         <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
@@ -56,7 +60,7 @@ action.setReturnURL(current);]]></script>
         <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
         <sys_update_name>sys_ui_action_649d0dea07ce6010adadff1d7c1ed005</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-28 22:45:05</sys_updated_on>
+        <sys_updated_on>2021-03-02 14:27:03</sys_updated_on>
         <table>x_295413_yachtclub_u_rent</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

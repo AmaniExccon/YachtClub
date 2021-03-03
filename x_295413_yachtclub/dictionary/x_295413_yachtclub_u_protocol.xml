@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="protocol" max_length="40" name="x_295413_yachtclub_u_protocol" sizeclass="12" type="collection">
+    <element label="protocol" max_length="40" name="x_295413_yachtclub_u_protocol" sizeclass="0" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Has new Damage " max_length="40" name="u_has_new_damage" type="boolean"/>
+        <element label="Has new Damage" max_length="40" name="u_has_new_damage" type="boolean"/>
         <element label="Is Seaworthy" max_length="40" name="u_is_seaworthy" type="boolean"/>
-        <element label="Miles on End " max_length="20" name="u_miles_on_end" type="decimal"/>
-        <element label="Miles on Start " max_length="20" name="u_miles_on_start" type="decimal"/>
+        <element label="Miles on End" max_length="20" name="u_miles_on_end" type="decimal"/>
+        <element label="Miles on Start" max_length="20" name="u_miles_on_start" type="decimal"/>
         <element label="Notes" max_length="100" name="u_notes" type="string"/>
         <element label="Rent" max_length="32" name="u_rent" reference="x_295413_yachtclub_u_rent" type="reference"/>
-        <element label="Return Protocal " max_length="32" name="u_return_protocal" reference="x_295413_yachtclub_u_protocol" type="reference"/>
+        <element label="Return Protocal" max_length="32" name="u_return_protocal" reference="x_295413_yachtclub_u_protocol" type="reference"/>
         <index name="index">
             <element name="u_rent"/>
         </index>
