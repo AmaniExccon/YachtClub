@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_295413_yachtclub.rent_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>rent_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 08:33:56</sys_created_on>
+        <sys_id>db96393507422010adadff1d7c1ed04d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_295413_yachtclub.rent_user</sys_name>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_update_name>sys_user_role_db96393507422010adadff1d7c1ed04d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 08:33:56</sys_updated_on>
+    </sys_user_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</application>
+        <file_path/>
+        <instance_id>5e528beadb224450b847ac44d496195d</instance_id>
+        <instance_name>dev97950</instance_name>
+        <name>sys_user_role_db96393507422010adadff1d7c1ed04d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_295413_yachtclub.rent_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>rent_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 08:33:56</sys_created_on>
+        <sys_id>db96393507422010adadff1d7c1ed04d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_295413_yachtclub.rent_user</sys_name>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_update_name>sys_user_role_db96393507422010adadff1d7c1ed04d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 08:33:56</sys_updated_on>
+    </sys_user_role>
+</record_update>]]></payload>
+        <payload_hash>-173568927</payload_hash>
+        <record_name>x_295413_yachtclub.rent_user</record_name>
+        <reverted_from/>
+        <source>34528ebb072e6010adadff1d7c1ed0c4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-04 11:05:00</sys_created_on>
+        <sys_id>52724afb072e6010adadff1d7c1ed026</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177fce98c270000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-04 11:05:00</sys_updated_on>
+        <type>Role</type>
+        <update_guid>9e724afbdb2e6010fc63c0592ed8a225</update_guid>
+        <update_guid_history>9e724afbdb2e6010fc63c0592ed8a225:0,e37c6d7bf7ea60101dacbe1a406cf584:278273309,6ffe834f8a2220102e66f8c7a600a3b3:0,73f9830bac222010f576bd0f813cbaeb:278273309,68b687ee625e20101cb89aaf89e7ae70:0,e223832ea85e2010f4b39b425153bdee:278273309,e923be191f12241032d3f522bf93b582:0,d132b2d5221224104331c5eb62a46138:278273309,3a0b364632ce2010a78c35f27c29e012:0,af5afec248ce20103a0560de9a75de42:278273309,45e8f6827ece2010125971e95f74eff0:0,bac6b202ccce2010947204233f536a06:278273309,d11e7cc28d8a2010452c8a32465af72e:0,eba5f84e0d4a2010f24b5525135257da:278273309,0467e406c14a20104fa4488340d51ef4:0,0ccd544e6f0a2010a9d462d2a679a95a:278273309,e888ebf96086201059bd948634763373:0,01e7e7b9a286201004f0a1db31fd0d36:278273309,abf4e3f5c88620109162d570b89ded6a:0,0b14ab759686201029ff4fd075e4ffe6:278273309,d2a12bf1be86201082debbb2e026adc0:0,ce512bb1a08620100509f6ec81b1fd68:278273309,fdac0335364620107baa6e30459849e9:0,d9c9c3715e4620106798f1ad04a245be:278273309,2ce507bdc6062010376a81c1d657f0e2:0,1f85477d260620102123b45338d64403:278273309,979639353a4220106a2fc5caa7c4fc51:-2041829463</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_295413_yachtclub.rent_user">318387b707ee6010adadff1d7c1ed01a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-04 15:49:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>21b202be64da43e6877ed475081c9d09</sys_id>
+        <sys_metadata>db96393507422010adadff1d7c1ed04d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_295413_yachtclub.rent_user</sys_name>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_scope_delete display_value="">30da5e27c993460f93ff8ac00b66dfa1</sys_scope_delete>
+        <sys_update_name>sys_user_role_db96393507422010adadff1d7c1ed04d</sys_update_name>
+        <sys_update_version display_value="sys_user_role_db96393507422010adadff1d7c1ed04d">52724afb072e6010adadff1d7c1ed026</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:49:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

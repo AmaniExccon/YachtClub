@@ -7,7 +7,7 @@
         <hint/>
         <name>Return Proto</name>
         <order>700</order>
-        <roles>x_295413_yachtclub.return_protocol_user</roles>
+        <roles/>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-01 09:34:37</sys_created_on>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Yacht Club">81aa5f2307686010b26bf2508c1ed03a</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEARCH</link_type>
+        <map_page/>
+        <mobile_title>Check Avalibility of Yachts </mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_295413_yachtclub_u_rent</name>
+        <order>25</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-10 16:39:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>abab71b0079aa010adadff1d7c1ed014</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>x_295413_yachtclub_u_rent</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_update_name>sys_app_module_abab71b0079aa010adadff1d7c1ed014</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-10 17:05:03</sys_updated_on>
+        <timeline_page/>
+        <title>Check Avalibility of Yachts </title>
+        <uncancelable>false</uncancelable>
+        <view_name>User Search for Yacht </view_name>
+        <window_name/>
+    </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</application>
+        <file_path/>
+        <instance_id>5e528beadb224450b847ac44d496195d</instance_id>
+        <instance_name>dev97950</instance_name>
+        <name>sys_app_module_abab71b0079aa010adadff1d7c1ed014</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Yacht Club">81aa5f2307686010b26bf2508c1ed03a</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEARCH</link_type>
+        <map_page/>
+        <mobile_title>Check Avalibility of Yachts </mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_295413_yachtclub_u_rent</name>
+        <order>25</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-10 16:39:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>abab71b0079aa010adadff1d7c1ed014</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>x_295413_yachtclub_u_rent</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_update_name>sys_app_module_abab71b0079aa010adadff1d7c1ed014</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-10 17:05:03</sys_updated_on>
+        <timeline_page/>
+        <title>Check Avalibility of Yachts </title>
+        <uncancelable>false</uncancelable>
+        <view_name>User Search for Yacht </view_name>
+        <window_name/>
+    </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>1292864175</payload_hash>
+        <record_name>Check Avalibility of Yachts </record_name>
+        <reverted_from/>
+        <source>34528ebb072e6010adadff1d7c1ed0c4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-04 11:04:39</sys_created_on>
+        <sys_id>596206fb072e6010adadff1d7c1ed033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177fce93b270000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-04 11:04:39</sys_updated_on>
+        <type>Module</type>
+        <update_guid>956206fb722e60103ddf7c441b9f1633</update_guid>
+        <update_guid_history>956206fb722e60103ddf7c441b9f1633:0,7b6ca97b2aea601052fa46584c657232:-1905762299,85eecb0f6f2220106952533ea46ea04a:0,10f9030b682220100e432adf367d8b3b:-1905762299,55a683ee3f5e2010d48f1bae7dc896ae:0,7423432e065e20107c619f67e282d14f:-1905762299,96137a191412241044e026ed51a9b0c5:0,ab2232d5b612241082ed90d13067917c:-1905762299,d2e1c2b4b39aa010cc05335d227cf1ad:-968912187,510102744f9aa010ae6c7e9c026085f0:-1224547715,569df1f0e79aa0101a8cc2a23a930cfc:723041649,a73db1f0f39aa01069a64f39f37f98fd:-2058109753,269c79b0ab9aa0102e96fa488865d250:793039533,331cb570579aa010b796f2735258a0cd:-993126290,9ffbb5701e9aa010cfcb52fdc79a0ec7:196487779</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Check Avalibility of Yachts ">dc38ceff072e6010adadff1d7c1ed001</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-04 11:29:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>8a6da37ec5354c388e4419ccaa045890</sys_id>
+        <sys_metadata>abab71b0079aa010adadff1d7c1ed014</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_295413_yachtclub_u_rent</sys_name>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_scope_delete display_value="">30da5e27c993460f93ff8ac00b66dfa1</sys_scope_delete>
+        <sys_update_name>sys_app_module_abab71b0079aa010adadff1d7c1ed014</sys_update_name>
+        <sys_update_version display_value="sys_app_module_abab71b0079aa010adadff1d7c1ed014">596206fb072e6010adadff1d7c1ed033</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-04 11:29:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

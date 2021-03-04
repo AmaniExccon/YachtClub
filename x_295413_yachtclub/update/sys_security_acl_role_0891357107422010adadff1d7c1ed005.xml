@@ -13,7 +13,7 @@
         <sys_update_name>sys_security_acl_role_0891357107422010adadff1d7c1ed005</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-02-01 08:11:53</sys_updated_on>
-        <sys_user_role display_value="x_295413_yachtclub.technical_review_user" name="x_295413_yachtclub.technical_review_user">e3b0313107422010adadff1d7c1ed0d0</sys_user_role>
+        <sys_user_role display_value="x_295413_yachtclub.security_officer" name="x_295413_yachtclub.security_officer">e3b0313107422010adadff1d7c1ed0d0</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>
