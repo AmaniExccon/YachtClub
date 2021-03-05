@@ -6,19 +6,20 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-orlando-12-11-2019__patch7-08-19-2020</compiler_build>
+        <compiler_build>glide-paris-06-24-2020__patch1-hotfix3-09-23-2020</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>rent_approval</internal_name>
         <label_cache>[{"name":"Created_1.current.member.email","label":"Trigger➛Rents Record➛Member➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.number","label":"Trigger➛Rents Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_295413_yachtclub_rents","column_name":"number"},{"name":"7dd005ff-0772-48f5-899e-96a9e362e3d2.email","label":"2.1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.rent_date","label":"Trigger➛Rents Record➛Rent Date","reference":"","reference_display":"Rent Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_295413_yachtclub_rents","column_name":"rent_date"},{"name":"{{static.02f3236307e86010b26bf2508c1ed044}}","label":"yacht_club_admin","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"Trigger➛Rents Record","reference":"x_295413_yachtclub_rents","reference_display":"Rents","type":"reference","base_type":"reference","attributes":{}},{"name":"6123a19a-9e88-4f9e-b72c-fd5ed63505c6.approval_state","label":"1➛Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
-        <latest_snapshot>f312381807b0e010b26bf2508c1ed0ca</latest_snapshot>
+        <latest_snapshot>ec05a204073aa010adadff1d7c1ed0f6</latest_snapshot>
         <master_snapshot>3dd7b7b307a4a010b26bf2508c1ed022</master_snapshot>
         <name>Rent Approval</name>
         <natlang/>
         <outputs/>
         <remote_trigger_id>c2d7b7b307a4a010b26bf2508c1ed055</remote_trigger_id>
         <run_as>system</run_as>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
@@ -51,6 +52,7 @@
         <on_insert>true</on_insert>
         <on_update>false</on_update>
         <run_flow_in>background</run_flow_in>
+        <run_on_extended/>
         <run_when_setting>both</run_when_setting>
         <run_when_user_list/>
         <run_when_user_setting>any</run_when_user_setting>
@@ -67,6 +69,31 @@
         <sys_updated_on>2020-11-25 09:32:13</sys_updated_on>
         <table>x_295413_yachtclub_rents</table>
     </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"745e763907062010adadff1d7c1ed017","name":"trigger_runner","type":"java.util.HashMap"}</data>
+        <identifier>cde57b3307a4a010b26bf2508c1ed096</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 13:47:15</sys_created_on>
+        <sys_id>745e763907062010adadff1d7c1ed017</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 13:47:15</sys_updated_on>
+        <trigger display_value="">c2d7b7b307a4a010b26bf2508c1ed055</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLSwqAMAwA0btk7Qm8ikioNrbFkkCbUkW8ux8EBbdvmA1SYRRGWpTYkoUWoLlxilIx8AmDGWeXpLB9UvXEWDIljCErtF3/8Uyqgd31ifrf8WbDK+wHYqfCZYEAAAA=</data>
+        <document_id>745e763907062010adadff1d7c1ed017</document_id>
+        <field>trigger_runner</field>
+        <length>140</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 13:47:15</sys_created_on>
+        <sys_id>7c5e763907062010adadff1d7c1ed017</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=cde57b3307a4a010b26bf2508c1ed096^sys_idNOT IN745e763907062010adadff1d7c1ed017"/>
     <sys_hub_flow_component action="delete_multiple" query="flow=cde57b3307a4a010b26bf2508c1ed096^sys_idNOT IN08d777b307a4a010b26bf2508c1ed070,14fd49cc0778a010b26bf2508c1ed098,50fd49cc0778a010b26bf2508c1ed09d"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -83,10 +110,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-25 09:32:04</sys_created_on>
         <sys_id>08d777b307a4a010b26bf2508c1ed070</sys_id>
-        <sys_mod_count>68</sys_mod_count>
+        <sys_mod_count>70</sys_mod_count>
         <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-11-26 08:25:22</sys_updated_on>
+        <sys_updated_on>2021-03-05 08:14:25</sys_updated_on>
         <ui_id>6123a19a-9e88-4f9e-b72c-fd5ed63505c6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=08d777b307a4a010b26bf2508c1ed070"/>
@@ -208,10 +235,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-25 15:48:23</sys_created_on>
         <sys_id>14fd49cc0778a010b26bf2508c1ed098</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-11-26 08:25:22</sys_updated_on>
+        <sys_updated_on>2021-03-05 08:14:25</sys_updated_on>
         <ui_id>7dd005ff-0772-48f5-899e-96a9e362e3d2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=14fd49cc0778a010b26bf2508c1ed098"/>
@@ -585,10 +612,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-25 09:32:04</sys_created_on>
         <sys_id>08d777b307a4a010b26bf2508c1ed070</sys_id>
-        <sys_mod_count>68</sys_mod_count>
+        <sys_mod_count>70</sys_mod_count>
         <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-11-26 08:25:22</sys_updated_on>
+        <sys_updated_on>2021-03-05 08:14:25</sys_updated_on>
         <ui_id>6123a19a-9e88-4f9e-b72c-fd5ed63505c6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=08d777b307a4a010b26bf2508c1ed070"/>
@@ -710,10 +737,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-25 15:48:23</sys_created_on>
         <sys_id>14fd49cc0778a010b26bf2508c1ed098</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-11-26 08:25:22</sys_updated_on>
+        <sys_updated_on>2021-03-05 08:14:25</sys_updated_on>
         <ui_id>7dd005ff-0772-48f5-899e-96a9e362e3d2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=14fd49cc0778a010b26bf2508c1ed098"/>
@@ -901,7 +928,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"ced7b7b307a4a010b26bf2508c1ed055","name":"plan"}}</plan>
         <plan_id>cde57b3307a4a010b26bf2508c1ed096</plan_id>
-        <snapshot>f312381807b0e010b26bf2508c1ed0ca</snapshot>
+        <snapshot>ec05a204073aa010adadff1d7c1ed0f6</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-25 09:32:13</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -933,6 +960,7 @@
         <parent_flow display_value="Rent Approval">cde57b3307a4a010b26bf2508c1ed096</parent_flow>
         <remote_trigger_id/>
         <run_as>system</run_as>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <status>published</status>
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
