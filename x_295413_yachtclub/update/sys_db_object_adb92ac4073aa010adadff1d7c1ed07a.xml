@@ -11,10 +11,10 @@
         <delete_access>false</delete_access>
         <extension_model/>
         <is_extendable>false</is_extendable>
-        <label>protocol</label>
+        <label>yacht </label>
         <live_feed_enabled>false</live_feed_enabled>
-        <name>x_295413_yachtclub_u_protocol</name>
-        <number_ref display_value="PRO">cf48bad207aa2410adadff1d7c1ed035</number_ref>
+        <name>x_295413_yachtclub_u_yacht</name>
+        <number_ref display_value="YACHT">bc32a56a0702a010adadff1d7c1ed024</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
@@ -23,18 +23,18 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-27 20:42:12</sys_created_on>
-        <sys_id>9152cebb072e6010adadff1d7c1ed00f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>protocol</sys_name>
+        <sys_created_on>2021-02-01 07:28:43</sys_created_on>
+        <sys_id>adb92ac4073aa010adadff1d7c1ed07a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>yacht </sys_name>
         <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
         <sys_policy/>
         <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
-        <sys_update_name>sys_db_object_9152cebb072e6010adadff1d7c1ed00f</sys_update_name>
+        <sys_update_name>sys_db_object_adb92ac4073aa010adadff1d7c1ed07a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-27 23:10:05</sys_updated_on>
+        <sys_updated_on>2021-03-05 09:16:02</sys_updated_on>
         <update_access>false</update_access>
-        <user_role/>
+        <user_role display_value="x_295413_yachtclub.yacht_club_admin" name="x_295413_yachtclub.yacht_club_admin">d9e957eb07a86010b26bf2508c1ed016</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>
