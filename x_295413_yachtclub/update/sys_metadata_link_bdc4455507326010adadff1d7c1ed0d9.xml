@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>9199349d07fe2010adadff1d7c1ed0b1</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_295413_yachtclub_u_yacht">
+    <x_295413_yachtclub_u_yacht action="INSERT_OR_UPDATE">
+        <number>YACHT0002007</number>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-08 21:38:15</sys_created_on>
+        <sys_id>9199349d07fe2010adadff1d7c1ed0b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-08 21:38:15</sys_updated_on>
+        <technical_review>2022-04-27</technical_review>
+        <u_cost>25.287</u_cost>
+        <u_cost_per_mile>10.8373</u_cost_per_mile>
+        <u_margin_per_day>0.1</u_margin_per_day>
+        <u_margin_per_mile>0.1</u_margin_per_mile>
+        <u_max_attendees>15</u_max_attendees>
+        <u_model>ALPHA4678</u_model>
+        <u_price>21.6745</u_price>
+        <u_price_per_mile>9.3923</u_price_per_mile>
+        <u_state>1</u_state>
+    </x_295413_yachtclub_u_yacht>
+    <fx_price action="delete_multiple" query="id=9199349d07fe2010adadff1d7c1ed0b1"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>35</amount>
+        <currency display_value="USD">USD</currency>
+        <field>u_cost</field>
+        <id>9199349d07fe2010adadff1d7c1ed0b1</id>
+        <parent/>
+        <reference_amount>35</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-08 21:38:15</sys_created_on>
+        <sys_id>21c97c9d07fe2010adadff1d7c1ed03d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-08 21:38:15</sys_updated_on>
+        <table>x_295413_yachtclub_u_yacht</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>15</amount>
+        <currency display_value="USD">USD</currency>
+        <field>u_cost_per_mile</field>
+        <id>9199349d07fe2010adadff1d7c1ed0b1</id>
+        <parent/>
+        <reference_amount>15</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-08 21:38:15</sys_created_on>
+        <sys_id>adc97c9d07fe2010adadff1d7c1ed03b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-08 21:38:15</sys_updated_on>
+        <table>x_295413_yachtclub_u_yacht</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>30</amount>
+        <currency display_value="USD">USD</currency>
+        <field>u_price</field>
+        <id>9199349d07fe2010adadff1d7c1ed0b1</id>
+        <parent/>
+        <reference_amount>30</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-08 21:38:15</sys_created_on>
+        <sys_id>69c97c9d07fe2010adadff1d7c1ed03d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-08 21:38:15</sys_updated_on>
+        <table>x_295413_yachtclub_u_yacht</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>13</amount>
+        <currency display_value="USD">USD</currency>
+        <field>u_price_per_mile</field>
+        <id>9199349d07fe2010adadff1d7c1ed0b1</id>
+        <parent/>
+        <reference_amount>13</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-08 21:38:15</sys_created_on>
+        <sys_id>e5c97c9d07fe2010adadff1d7c1ed03c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-08 21:38:15</sys_updated_on>
+        <table>x_295413_yachtclub_u_yacht</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-08 22:26:20</sys_created_on>
+        <sys_id>bdc4455507326010adadff1d7c1ed0d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ALPHA4678</sys_name>
+        <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
+        <sys_update_name>sys_metadata_link_bdc4455507326010adadff1d7c1ed0d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-08 22:26:20</sys_updated_on>
+        <tablename>x_295413_yachtclub_u_yacht</tablename>
+    </sys_metadata_link>
+</record_update>
