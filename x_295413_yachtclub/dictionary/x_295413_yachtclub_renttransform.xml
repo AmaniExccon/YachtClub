@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="RentTransform" max_length="40" name="x_295413_yachtclub_renttransform" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Member" label="Member" max_length="40" name="u_member" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Rent Date" label="Rent Date" max_length="40" name="u_rent_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Yacht" label="Yacht" max_length="40" name="u_yacht" type="string"/>
+    </element>
+</database>
