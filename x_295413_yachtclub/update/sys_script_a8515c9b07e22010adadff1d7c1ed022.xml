@@ -12,10 +12,11 @@
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
         <collection>x_295413_yachtclub_u_rent</collection>
-        <condition>current.u_approval   &amp;&amp;  current.u_status==4</condition>
+        <condition>current.u_approval  ==2 &amp;&amp;  current.u_status==4</condition>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_295413_yachtclub_u_rent">u_status=4^EQ<item display_value="Return" endquery="false" field="u_status" goto="false" newquery="false" operator="=" or="false" value="4"/>
+        <filter_condition table="x_295413_yachtclub_u_rent">u_status=4^u_approval=2^EQ<item display_value="Return" endquery="false" field="u_status" goto="false" newquery="false" operator="=" or="false" value="4"/>
+            <item display_value="Approved" endquery="false" field="u_approval" goto="false" newquery="false" operator="=" or="false" value="2"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
@@ -40,7 +41,11 @@
         var ytCount = thRent.getRowCount();
         gs.info(ytCount); // if there are no records set yacht status to available 
         if (ytCount == 0) {
-            current.u_boatcurrent.u_boat.u_state=1;
+    
+			//current.setValue(current.u_boat.u_state,'1');
+			//current.u_boat.setValue('u_state','1');
+		
+			current.u_boat.u_state=1;
 			current.update();
         }
 	else{
@@ -56,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a8515c9b07e22010adadff1d7c1ed022</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Rent is return yacht is available </sys_name>
         <sys_overrides/>
         <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
@@ -64,7 +69,7 @@
         <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
         <sys_update_name>sys_script_a8515c9b07e22010adadff1d7c1ed022</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-08 21:58:15</sys_updated_on>
+        <sys_updated_on>2021-03-09 05:07:07</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

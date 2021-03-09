@@ -25,8 +25,16 @@
 
     function callback(response) {
         var answer= response.responseXML.documentElement.getAttribute('answer');
-		g_form.showFieldMsg('u_rent_date_start','The earliest possible hire date is '+ answer, 'info');
+		if(answer== null)
+			{
+				g_form.showFieldMsg('u_rent_date_start','The Yacht is Available to Rent', 'info');
+                
+			}else{
+				g_form.showFieldMsg('u_rent_date_start','The earliest possible hire date is '+ answer, 'info');
                  // g_form.addInfoMessage("the selected" +myObj[i].yacht + " Yacht is booked from " + myObj[i].startDate + " to " + myObj[i].endDate);
+			}
+			
+		
         
 
 
@@ -38,7 +46,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6bb61ce2074e6010adadff1d7c1ed088</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_name>Available dates for yacht </sys_name>
         <sys_overrides/>
         <sys_package display_value="Yacht Club" source="x_295413_yachtclub">94499bab07a86010b26bf2508c1ed038</sys_package>
@@ -46,7 +54,7 @@
         <sys_scope display_value="Yacht Club">94499bab07a86010b26bf2508c1ed038</sys_scope>
         <sys_update_name>sys_script_client_6bb61ce2074e6010adadff1d7c1ed088</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-01 15:17:24</sys_updated_on>
+        <sys_updated_on>2021-03-09 04:28:36</sys_updated_on>
         <table>x_295413_yachtclub_u_rent</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
