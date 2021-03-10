@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="protocol" max_length="40" name="x_295413_yachtclub_u_protocol" type="collection">
+    <element label="protocol" max_length="40" name="x_295413_yachtclub_u_protocol" sizeclass="24" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Has new Damage" max_length="40" name="u_has_new_damage" type="boolean"/>
         <element label="Is Seaworthy" max_length="40" name="u_is_seaworthy" type="boolean"/>
